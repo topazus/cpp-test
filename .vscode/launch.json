@@ -8,13 +8,14 @@
             "name": "Launch debugging session",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/build/bin/zenofgithub",
+            "program": "${workspaceFolder}/main",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],
             "externalConsole": false,
             "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb",
             "setupCommands": [
                 {
                     "description": "Enable pretty-printing for gdb",
